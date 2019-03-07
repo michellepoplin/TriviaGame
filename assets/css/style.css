@@ -1,0 +1,56 @@
+body {
+    background-image: url("../images/background.jpg");
+    margin: 0;
+}
+
+#contentContainer {
+    background-color: rgb(0, 128, 111);
+    color: white;
+    margin: 80px auto;
+    padding: 30px 80px 80px;
+    text-align: center;
+    width: 900px;
+}
+
+#startButton,
+#submitButton {
+    background-color: white;
+    border: 2px solid black;
+    color: rgb(0, 128, 111);
+    cursor: pointer;
+    font-size: 36px;
+    height: 100px;
+    width: 400px;
+}
+
+#startButton {
+    margin-top: 100px;
+}
+
+#submitButton {
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+#timerContainer {
+    font-size: 30px;
+}
+
+#titleContainer {
+    font-size: 60px;
+}
+
+#resultsContainer,
+#timerContainer,
+#questionsContainer {
+    line-height: 30px;
+}
+
+.question {
+    font-size: 30px;
+    padding: 40px 10px 10px 10px;
+}
+
+#quizContainer {
+    display: none;
+}
